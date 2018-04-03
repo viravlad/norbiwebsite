@@ -1,0 +1,49 @@
+.navbar{
+	background-color:rgba(0, 0, 0, 0);
+	border:none;
+}
+.row{
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+h1{
+	text-align: center;
+	margin-top: 10%;
+	font-family: 'Bellefair', serif;
+	letter-spacing: 2px;
+}
+.description{
+	background-color: #F2F2F2;
+	width: 250px;
+	height:300px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.description img{
+	 transition: 0.3s;
+	 max-width: 100%;
+}
+.description:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  box-shadow: 2px 2px #383838;
+}
+.imgTitle{
+	margin-top:10%; 
+}
+.top-content{
+	background-image: url('../images/homeBackground.png');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+}
+.presentation-content{
+	color:white;
+	font-family: 'Bellefair', serif;
+	letter-spacing: 2px;
+}

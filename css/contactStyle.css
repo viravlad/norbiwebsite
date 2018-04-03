@@ -1,0 +1,89 @@
+.navbar-brand{
+	transition: 1s;
+	position: fixed;
+	filter:brightness(10%)
+}
+.navbar-brand:hover{
+	 filter:brightness(60%)
+}
+.navbar{
+	background-color:rgba(0, 0, 0, 0);
+	border:none;
+	
+}
+.navbar .container-fluid .navbar-nav>li>a{
+		color:black;
+        font-family: 'Bellefair', serif;
+        transition:1s;
+        letter-spacing: 2px;
+        font-size: 20px;
+}
+.navbar .container-fluid .navbar-nav>li>a:hover{
+        color: #838080;
+}
+#midContent{
+	margin-top: 15%;
+	text-align: center;
+}
+.btnShowAdress{
+	margin-top: 5%; 
+	transition: 1s;
+	letter-spacing: 2px;
+	font-size: 20px;
+	border:2px solid black;
+}
+#emailTxt{
+	font-family: 'Bellefair', serif;
+}
+.btnShowAdress:hover{
+	background-color: black;
+	color:white;
+	cursor: pointer;
+
+}
+h2{
+	font-weight: 30px;
+}
+#mainForm{
+	width: 30%;
+	float:right;
+}
+#mainForm input{
+	border:none;
+}
+#formContent{
+	visibility: hidden;
+	font-family: 'Bellefair', serif;
+}
+.btnSend {
+	margin-top: 5%;
+	width:25%;
+	border:1px solid black;
+	transition:1s;
+	font-family: 'Bellefair', serif;
+
+}
+.btnSend:hover{
+	background-color: black;
+	color:white;
+}
+.footer{
+	width: 100%;
+	bottom:0px;
+	position: absolute;
+	width: 100%;
+}
+#copyright{
+	float:right;
+	font-family: 'Cinzel', serif;
+}
+#socialIcons{
+	text-align: left;
+}
+#socialIcons li{
+	display: inline;
+}
+#socialIcons li img{
+	height:25px;
+	width:25px;
+}

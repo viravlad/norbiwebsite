@@ -1,0 +1,186 @@
+.presentation{
+	text-align: center;
+}
+.top-content{
+	background-image: url('../images/homeBackground.png');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentation-content{
+	text-align: center;
+	color: white;
+	padding-top: 200px;
+	font-family: 'Bellefair', serif;
+	letter-spacing: 2px;
+}
+.btn-default{
+	margin-top: 60px;
+}
+.btn{
+	letter-spacing: 2px;
+}
+.presentation-content>button{
+	border-radius: 25px;
+	min-width: 20%;
+	height:50px;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	transition:1s;
+	font-family: 'Cinzel', serif;
+	letter-spacing: 5px;
+	font-size: 15px;
+}
+.norbi-font{
+	font-family: 'Special Elite', cursive;
+}
+.navbar-brand{
+	transition: 1s;
+	position: fixed;
+}
+.navbar-brand:hover{
+	 filter:brightness(75%)
+}
+.presentation-content>h3{
+	margin-top:30px;
+}
+.container{
+	min-height: 600px;
+}
+.top-content>.navbar{
+	background-color:rgba(0, 0, 0, 0);
+	border:none;
+
+}
+.navbar .container-fluid .navbar-nav>li>a{
+		color:#d3d3d3;
+        font-family: 'Bellefair', serif;
+        transition:1s;
+        letter-spacing: 2px;
+        font-size: 20px;
+}
+.navbar .container-fluid .navbar-nav>li>a:hover{
+        color:#ffffff;
+}
+.logo-content{
+	text-align: center;
+	padding-top: 60px;
+	font-family: 'Bellefair', serif;
+
+}
+.logo-content>h1{
+	letter-spacing: 2px;
+}
+.logo-content .container{
+	min-height: 650px;
+	width: 100%;
+}
+.col-md-4{
+	margin-top:100px; 
+}
+#image-logo-container1{
+	transition: 1s;
+}
+#image-logo-container1:hover{
+	filter:brightness(75%);
+	cursor:pointer;
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+#image-logo-container2{
+	transition: 1s;
+}
+#image-logo-container2:hover{
+	filter:brightness(75%);
+	cursor:pointer;
+	-ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+#image-logo-container3{
+	transition: 1s;
+}
+#image-logo-container3:hover{
+	filter:brightness(75%);
+	cursor:pointer;
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+ #logo-button h1{
+	padding-top: 50px;
+}
+#logo-button button{
+	border-radius: 25px;
+	min-width: 10%;
+	height:50px;
+	background-color: rgba(0, 0, 0, 0);
+	color: black;
+	transition:1s;
+	font-family: 'Cinzel', serif;
+	letter-spacing: 5px;
+	font-size: 15px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+#logo-button button:hover{
+	color: white;
+	background-color: black;
+}
+.stone-content{
+	background-image: url('../images/stoneBackground.png');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+	color: white;
+	font-family: 'Cinzel', serif;
+}
+.main-div{
+	margin:0px 5px 0px 5px;
+}
+#stone-button{
+	padding-top: 200px;
+}
+#stone-button button{
+	border-radius: 25px;
+	min-width: 20%;
+	height:50px;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	transition:1s;
+	font-family: 'Cinzel', serif;
+	letter-spacing: 5px;
+	font-size: 15px;
+	margin-top: 25px;
+}
+#stone-button button:hover{
+	color: black;
+	background-color: white;
+}
+#footer-logo{
+	filter:brightness(5%);
+}
+#footer-div{
+	text-align: center;
+	padding-top: 200px;
+}
+#copyright{
+	padding-top: 50px;
+	font-family: 'Cinzel', serif;
+	text-align: center;
+}
+#footer-icons{
+	text-align: center;
+	padding-top: 50px;
+}
+.hover-icons{
+	transition: 1s;
+}
+.hover-icons:hover{
+	filter:brightness(70%);
+}

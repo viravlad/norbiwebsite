@@ -1,0 +1,60 @@
+.navbar-brand{
+	transition: 1s;
+	position: fixed;
+}
+.navbar-brand:hover{
+	 filter:brightness(75%)
+}
+.navbar{
+	background-color:rgba(0, 0, 0, 0);
+	border:none;
+}
+.navbar .container-fluid .navbar-nav>li>a{
+		color:#d3d3d3;
+        font-family: 'Bellefair', serif;
+        transition:1s;
+        letter-spacing: 2px;
+        font-size: 20px;
+}
+.navbar .container-fluid .navbar-nav>li>a:hover{
+        color:#ffffff;
+}
+.logo-content{
+	text-align: center;
+	padding-top: 60px;
+	font-family: 'Bellefair', serif;
+
+}
+.logo-content>h1{
+	letter-spacing: 2px;
+}
+.logo-content .container{
+	min-height: 650px;
+	width: 100%;
+}
+#footer-logo{
+	filter:brightness(5%);
+}
+#footer-div{
+	text-align: center;
+	padding-top: 200px;
+}
+#copyright{
+	padding-top: 50px;
+	font-family: 'Cinzel', serif;
+	text-align: center;
+}
+#footer-icons{
+	text-align: center;
+	padding-top: 50px;
+}
+.hover-icons{
+	transition: 1s;
+}
+.hover-icons:hover{
+	filter:brightness(70%);
+}
+.imgTitle{
+	font-family: 'Bellefair', serif;
+	letter-spacing: 2px;
+}
